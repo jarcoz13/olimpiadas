@@ -25,7 +25,7 @@ public class Conexion {
         Conexion ConexionOlimpiadas = new Conexion();
         ConexionOlimpiadas.getConexion();
         Insertar idComisarioPk = new Insertar();
-        //idComisarioPk.Insertece();
+        idComisarioPk.Insertece();
         Datos datamining = new Datos();
         datamining.Consultelo();
     } 

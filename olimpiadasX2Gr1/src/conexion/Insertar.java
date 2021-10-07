@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @author Jose Alejandro Cortazar Lopez
  * @author Jefferson Escobar 
- * grupo No 1
+ * grupo No 1 UDFJC
  */
 public class Insertar {
     Conexion Conectar = new Conexion();
@@ -19,7 +19,7 @@ public class Insertar {
     ResultSet rs;
     
     public void Insertece(){
-        String sql="insert into comisario_g1(idcomisario,nombrecomisario) values(333,'Simon Bolivar')";
+        String sql="insert into comisario_g1(idcomisario,nombrecomisario) values(10,'Pive Valderrama')";
         
         try {
             ps=Conectar.getConexion().prepareStatement(sql);
